@@ -1,5 +1,5 @@
 # My old practice project (restored from old hard drive). 
-Yep, is unoptimized and ugly2.
+Yep, is unoptimized and ugly.
 Looks like it was written in July 2021
 
 # Getting Started with Create React App
