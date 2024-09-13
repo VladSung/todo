@@ -1,0 +1,58 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+.App>div{
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+h1{
+  margin: 0 0 20px;
+}
+
+.form input{
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 8px;
+  outline: none;
+  border: #1e3b77 2px solid;
+  border-radius: 15px 0 0 15px;
+}
+.form input:focus{
+  border-color: #3263c5;
+}
+.form button{
+  font-size: 18px;
+  border: 0;
+  color: aliceblue;
+  background-color: #1e3b77;
+  padding: 10px 15px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #2b53a5;
+}
+.form div:last-child button{
+  padding: 5px 14px 5px 10px;
+}
+.form div:last-child{
+  text-align: start;
+  margin: 10px 0;
+}
+.todos div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px 10px 10px 15px;
+  background-color: #1e3b77;
+  border-radius: 15px;
+}
+.todos div.complete{
+  background-color: #771e22c9;
+}
